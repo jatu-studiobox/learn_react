@@ -80,3 +80,29 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
       * *script* - running commmand in our project
       * *dependencies* - dependencies using in project
     * **README.md** file - info about project.
+
+## Follow Fundamentals
+
+#### Remove Boilerplate
+
+- remove src folder
+- create src folder
+  - create index.js inside src
+
+#### First Component
+
+```js
+function Greeting() {
+  return <h2>My First Component</h2>;
+}
+
+// arrow function also works
+
+const Greeting = () => {
+  return <h2>My First Component</h2>;
+};
+```
+
+- starts with capital letter
+- must return JSX (html)
+- always close tag <Greeting/>
