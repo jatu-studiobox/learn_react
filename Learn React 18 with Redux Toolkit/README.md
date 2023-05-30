@@ -21,11 +21,15 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 * NodeJS: https://nodejs.org/en
   * Recommend "LTS" version:
   * After install, checking node version in machine
+  * 
     ```
     node --version
     ```
+    
     ![check node version](https://github.com/jatu-studiobox/learn_react/assets/43282496/3b98279e-b23e-4c33-b597-3eba9c86950d)
+    
   * When install nodejs, it include "npm" or "node package manager". For install external package
+  
     ```
     npm install packageName
     ```
@@ -64,8 +68,12 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
   * Instructor complete source code: https://github.com/john-smilga/react-course-v3
   * Course Fundamental: https://github.com/john-smilga/react-course-v3/tree/main/01-fundamentals
     for reference fundamental in this course.
-  * Project folder struture.
+  * Project folder struture. https://github.com/john-smilga/react-course-v3/tree/main/01-fundamentals#folder-structure
     
     ![project folder structure](https://github.com/jatu-studiobox/learn_react/assets/43282496/851ca443-0f5a-431c-b9fd-eca931a0c1e0)
     
     * **node_modules** folder - all dependencies our using in this project.
+    * **public** folder - contains static assets including index.html, which basiccally is the things that to be served to the browser.
+    * **src** folder - contains brain of our app, we do our work in here. Entry point of code is index.js, which inject to index.html, id=root.
+    * **.gitignore** file - specific files will be ignore by source control (git)
+    * 
