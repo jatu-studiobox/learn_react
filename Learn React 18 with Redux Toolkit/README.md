@@ -20,8 +20,8 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
   * Integrated in VS Code
 * NodeJS: https://nodejs.org/en
   * Prefer "LTS" version:
-  * checking node version in machine
+  * After install, checking node version in machine
     ```
     node --version
     ```
-    
+    ![check node version](https://github.com/jatu-studiobox/learn_react/assets/43282496/3b98279e-b23e-4c33-b597-3eba9c86950d)
