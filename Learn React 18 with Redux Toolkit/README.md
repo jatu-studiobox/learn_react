@@ -37,8 +37,21 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
     ```
     npx create-react-app@latest appName
     ```
+    
     ![create-react-app](https://github.com/jatu-studiobox/learn_react/assets/43282496/038c24ca-f9d6-4503-8f97-b7578963a4c0)
 
-  * After create project by scraffolding, then open project in VS Code.
+  * After create project by scraffolding, then open project in VS Code. And then test running project by running command in VS Code.
+    
+    ```
+    npm start
+    ```
+    
+    ![Project in VS Code](https://github.com/jatu-studiobox/learn_react/assets/43282496/74a456b7-d045-438e-bd49-e60f807ef60e)
+
+    ![Running project command](https://github.com/jatu-studiobox/learn_react/assets/43282496/4e991a60-e418-47e0-9027-ad12d19622a5)
+
+    When run 'npm start' command, development server will run at 'http://localhost:3000/'
+    
+    ![Running app](https://github.com/jatu-studiobox/learn_react/assets/43282496/cb380129-9080-4612-8b85-4819aa34a615)
 
     
