@@ -62,3 +62,10 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 
 ## Fundamentals
   * Instructor complete source code: https://github.com/john-smilga/react-course-v3
+  * Course Fundamental: https://github.com/john-smilga/react-course-v3/tree/main/01-fundamentals
+    for reference fundamental in this course.
+  * Project folder struture.
+    
+    ![project folder structure](https://github.com/jatu-studiobox/learn_react/assets/43282496/851ca443-0f5a-431c-b9fd-eca931a0c1e0)
+    
+    * **node_modules** folder - all dependencies our using in this project.
