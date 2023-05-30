@@ -19,9 +19,20 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
   * OS
   * Integrated in VS Code
 * NodeJS: https://nodejs.org/en
-  * Prefer "LTS" version:
+  * Recommend "LTS" version:
   * After install, checking node version in machine
     ```
     node --version
     ```
     ![check node version](https://github.com/jatu-studiobox/learn_react/assets/43282496/3b98279e-b23e-4c33-b597-3eba9c86950d)
+  * When install nodejs, it include "npm" or "node package manager". For install external package
+    ```
+    npm install packageName
+    ```
+* Tool for create scraffolding ReactJS Project "vite", instead of "create-react-app".
+  * Create React App website: https://create-react-app.dev/ for how to use create-react-app command.
+    it use 'npx' for 'execute' command instead of install package
+    ```
+    npx create-react-app@latest appName
+    ```
+
