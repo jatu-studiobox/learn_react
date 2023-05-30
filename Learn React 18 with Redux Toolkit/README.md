@@ -36,3 +36,12 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
     npx create-react-app@latest appName
     ```
     ![create-react-app](https://github.com/jatu-studiobox/learn_react/assets/43282496/038c24ca-f9d6-4503-8f97-b7578963a4c0)
+
+  * After create react app by scraffolding command, then test run app on developement server. Prefer using terminal in VS Code for running command.
+    
+    Open project by VS Code. Then open new terminal and then run command
+
+    ```
+    npm start
+    ```
+    
