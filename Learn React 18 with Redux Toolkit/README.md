@@ -91,6 +91,8 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 
 #### First Component
 
+- Component in React is Javascript Function
+
 ```js
 function Greeting() {
   return <h2>My First Component</h2>;
@@ -106,3 +108,35 @@ const Greeting = () => {
 - starts with capital letter
 - must return JSX (html)
 - always close tag <Greeting/>
+
+##### Typical Component
+
+Must export component to outside.
+
+```js
+// imports or logic
+
+const Greeting = () => {
+  return <h2>My First Component</h2>;
+};
+export default Greeting;
+```
+
+##### Root Component (only one)
+
+Root component have code different from other component, it has not export default, but it has createRoot and render.
+
+index.js
+
+```js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function Greeting() {
+  return <h2>My First Component</h2>;
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<Greeting />);
+```
