@@ -50,7 +50,7 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 
     ![Running project command](https://github.com/jatu-studiobox/learn_react/assets/43282496/4e991a60-e418-47e0-9027-ad12d19622a5)
 
-    When run 'npm start' command, development server will run at 'http://localhost:3000/'
+    When run 'npm start' command, development server will run at http://localhost:3000/
     
     ![Running app](https://github.com/jatu-studiobox/learn_react/assets/43282496/cb380129-9080-4612-8b85-4819aa34a615)
 
@@ -60,4 +60,5 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 
     ![hot reload](https://github.com/jatu-studiobox/learn_react/assets/43282496/2ddd135b-c70c-4c15-8d74-044063400a2c)
 
-    
+## Fundamentals
+  * Instructor complete source code: https://github.com/john-smilga/react-course-v3
