@@ -21,7 +21,7 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
 * NodeJS: https://nodejs.org/en
   * Recommend "LTS" version:
   * After install, checking node version in machine
-  * 
+  
     ```
     node --version
     ```
@@ -76,4 +76,7 @@ YouTube : https://www.youtube.com/watch?v=2-crBg6wpp0
     * **public** folder - contains static assets including index.html, which basiccally is the things that to be served to the browser.
     * **src** folder - contains brain of our app, we do our work in here. Entry point of code is index.js, which inject to index.html, id=root.
     * **.gitignore** file - specific files will be ignore by source control (git)
-    * 
+    * **package.json** file - contain useful info about our project. interest 2 sections, 
+      * *script* - running commmand in our project
+      * *dependencies* - dependencies using in project
+    * **README.md** file - info about project.
