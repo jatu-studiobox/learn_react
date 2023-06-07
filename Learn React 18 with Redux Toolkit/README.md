@@ -140,3 +140,48 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<Greeting />);
 ```
+
+How to create component by calling 'createElement'.
+
+index.js
+
+```js
+const Greeting = () => {
+  return React.createElement('h2', {}, 'hello world');
+};
+```
+
+Above method is straightforward. But there is the problems, e.g. if we need 'h2' inside 'div' tag.
+
+```html
+<div>
+ <h2>xxxxx</h2>
+</div>
+```
+
+We must use nested 'createElement'. So, it is too long. see below. (If we need nested 20 or 50 tag ..)
+
+```js
+const Greeting = () => {
+  return React.createElement(
+    'div',
+    {},
+    React.createElement('h2', {}, 'hello world')
+  );
+};
+```
+
+So we should use JSX method instead for easier.
+
+```js
+function Greeting() {
+  return (
+    <div>
+      <h2>hello world</h2>
+    </div>
+  );
+}
+```
+
+
+
