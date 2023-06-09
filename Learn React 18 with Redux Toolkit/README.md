@@ -183,5 +183,23 @@ function Greeting() {
 }
 ```
 
+#### JSX Rules
+- return single element (one parent element) -> "ALWAYS"
+  - semantics section/article
+  - Fragment - let's us group elements without adding extra nodes
+- example
+```js
+const Greeting = () => {
+  return (
+    <div>
+      <h3>hello people</h3>
+      <ul>
+        <li><a href="#">hello world</a></li>
+      </ul>
+    </div>
+  )
+};
+```
 
+In case, need return more than single element, we must use 
 
