@@ -267,3 +267,10 @@ function Greeting() {
   );
 }
 ```
+
+```js
+function Greeting() {
+  return <h2>hello</h2>
+  );
+}
+```
