@@ -220,3 +220,51 @@ Example
   </ul>
 </React.Fragment>
 ```
+
+- camelCase property naming convention
+in JSX use camelCase "property" naming convension
+```js
+return (
+  <div tabIndex={1}>
+    <button onClick={myFunction}>click me</button>
+    <label htmlFor='name'>Name</label>
+    <input readOnly={true} id='name' />
+  </div>
+)
+```
+
+- "className" (JSX) instead of "class" (HTML)
+```js
+return <div className='someValue'>hello</div>;
+```
+
+- close every element
+in JSX must always open & close tag, or self-close tag
+```js
+return <img />;
+// or
+return <input />;
+```
+
+- formatting
+  - opening tag in the same line as return or ()
+if does not use (), open tag must same line as return, but if use (...), no need to same line
+```js
+function Greeting() {
+  return (
+    <>
+      <div className='someValue'>
+        <h3>hello people</h3>
+        <ul>
+          <li>
+            <a href='#'>hello world</a>
+          </li>
+        </ul>
+      </div>
+      <h2>hello world</h2>
+      <input type='text' name='' id='' />
+    </>
+  );
+}
+```
+
