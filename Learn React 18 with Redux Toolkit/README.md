@@ -274,3 +274,21 @@ function Greeting() {
   );
 }
 ```
+
+#### Nest Components
+Code can reusable
+```js
+function Greeting() {
+  return (
+    <div>
+      <Person />
+      <Message />
+    </div>
+  );
+}
+
+const Person = () => <h2>john doe</h2>;
+const Message = () => {
+  return <p>this is my message</p>;
+};
+```
