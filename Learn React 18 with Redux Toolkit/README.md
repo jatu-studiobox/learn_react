@@ -203,3 +203,11 @@ const Greeting = () => {
 
 In case, need return more than single element, we must use 
 
+Below, is React.Fragment component, for group elements without add html element extra node
+
+```js
+return <React.Fragment>...rest of the return</React.Fragment>;
+
+// shorthand
+return <>...rest of the return</>;
+```
