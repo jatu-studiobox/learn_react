@@ -211,3 +211,12 @@ return <React.Fragment>...rest of the return</React.Fragment>;
 // shorthand
 return <>...rest of the return</>;
 ```
+Example
+```js
+<React.Fragment>
+  <h3>hello people</h3>
+  <ul>
+    <li><a href="#">hello world</a></li>
+  </ul>
+</React.Fragment>
+```
